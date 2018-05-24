@@ -175,5 +175,5 @@ Pick a model to save and select it by clicking ⋮ then "Save Model"
 |:--:| 
 | *Name the model "mnist-hpo-saved-model". Select "Save"* |
 
-Use the saved model in the notebook [PredictingWithModel](https://raw.githubusercontent.com/PubChimps/DLaaSWorkshop/master/PredictWithModel.ipynb)
+Use the saved model in the notebook [PredictingWithModel](https://github.com/vvk17/DLaaSWorkshop/blob/master/PredictWithModel.ipynb)
 
