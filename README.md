@@ -44,7 +44,7 @@ Once the new project is created, select “Settings” in the far-right of the t
 
 ## Add Data <a name="add"></a>
 
-Buckets will now be created in the IBM Cloud Object storage service to so that the mnist training data and the results of deep learning training algorithms can be stored. The data is loaded in two different formats, demonstrated in “AddMNistData.ipynb”. Under assets, we will add a “New notebook”, chose "From URL," name the notebook "AddMnistData", and to point it to https://raw.githubusercontent.com/PubChimps/DLaaSWorkshop/master/AddMnistData.ipynb as the "Notebook URL" while keeping the default runtime already specified.
+Buckets will now be created in the IBM Cloud Object storage service to so that the mnist training data and the results of deep learning training algorithms can be stored. The data is loaded in two different formats, demonstrated in “AddMNistData.ipynb”. Under assets, we will add a “New notebook”, chose "From URL," name the notebook "AddMnistData", and to point it to https://github.com/vvk17/DLaaSWorkshop/blob/master/AddMnistData.ipynb as the "Notebook URL" while keeping the default runtime already specified.
 
 <img src="images/Picture08.jpg">
 <br>
@@ -128,7 +128,7 @@ Now the nodes must be configured for the mnist data, a node’s settings are vis
 | *Select an "Existing training definition“ and use the "mnist-nnm-training-def" created earlier. 1 X NVIDIA Tesla K80 (2 GPU)” will be the "Compute plan" (Others are not available on the IBM Cloud Lite plan). Click “Select” and "Create and run."  The neural network will now begin training on the mnist data. As it is training continue to the next section.* |
 
 ### With Keras <a name="wkeras"></a>
-Under the assets section of the “DLaaS Workshop” project, add a new notebook with "From URL" as the source, name it “mnist-hpo” and copy/paste https://raw.githubusercontent.com/PubChimps/DLaaSWorkshop/master/mnist-hpo.ipynb as the Notebook URL. **"Default Anaconda S (4vCPU and 16GB RAM)** will allow the Keras model to train faster. Select "Create Notebook"
+Under the assets section of the “DLaaS Workshop” project, add a new notebook with "From URL" as the source, name it “mnist-hpo” and copy/paste https://github.com/vvk17/DLaaSWorkshop/blob/master/mnist-hpo.ipynb as the Notebook URL. **"Default Anaconda S (4vCPU and 16GB RAM)** will allow the Keras model to train faster. Select "Create Notebook"
 
 ![Picture27.jpg](images/Picture27.jpg)
 
@@ -152,7 +152,7 @@ A new experiement will now be added to illustrate Watson Studio’s Hyperparamet
 
 |![Picture31.jpg](images/Picture31.jpg) | 
 |:--:| 
-| *Add a training definition and name it “mnist-hpo-training-def” and upload [this zip file](https://github.com/PubChimps/DLaaSWorkshop/blob/master/MNIST.zip). It contains the model written in Keras earlier, as well as other code.* |
+| *Add a training definition and name it “mnist-hpo-training-def” and upload [this zip file](https://github.com/vvk17/DLaaSWorkshop/blob/master/MNIST.zip). It contains the model written in Keras earlier, as well as other code.* |
 
 |![Picture32.jpg](images/Picture32.jpg) | 
 |:--:| 
